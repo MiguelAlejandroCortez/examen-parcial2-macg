@@ -1,18 +1,18 @@
 package objetos.parcial2.examen.smarthome;
 
-public class SmartLight extends Device {
+public class SmartLight extends Device{
 
     public SmartLight(String name) {
         super(name);
     }
 
     @Override
-    void turnOn() {
-
+    public void turnOn() {
+        System.out.println(getName() +" : " + "Encendiendo foco" );
     }
 
     @Override
-    void turnOff() {
-
+    public void turnOff() {
+        System.out.println(getName() +" : " + "Apagando foco" );
     }
 }

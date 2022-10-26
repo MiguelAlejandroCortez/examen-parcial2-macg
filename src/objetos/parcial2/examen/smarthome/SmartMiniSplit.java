@@ -7,12 +7,12 @@ public class SmartMiniSplit extends Device{
     }
 
     @Override
-    void turnOn() {
-
+    public void turnOn() {
+        System.out.println(getName() +" : " + "Encendiendo MiniSplit" );
     }
 
     @Override
-    void turnOff() {
-
+    public void turnOff() {
+        System.out.println(getName() +" : " + "Apagando MiniSplit" );
     }
 }

@@ -4,14 +4,13 @@
     los metodos que tiene animal cuatripedo.
 
 2. Describe Polimorfismo:
-    Es cuando tenemos uno o varios metodos dentro de varias clases, la diferencia es que estas tengan
-    el mismo nombre pero con diferentes acciones dentro, algo como al comunicarse de animales, pueden tener
-    el mismo nombre el metodo pero cada animal se comunica de forma diferente
+    Es un pilar de la OOP mediante el cual una variable de un tipo recibe un mensaje y actua diferente
+    dependiendo de la clase real instanciada.
 
 3. ¿Qué es una interfaz?
-
+    Un contrato que deben seguir las clases que implementen dicha interfaz
 4. ¿Qué es una clase abstracta?
-    
+    Es una clase que puede o no tener metodos abstractos. Es una clase que solo sirve para ser padre
 
 5. ¿Qué es herencia múltiple?
     Es cuando tenemos varias herencias dentro de una clase, como el caso del pato que es un animal terrestre, 

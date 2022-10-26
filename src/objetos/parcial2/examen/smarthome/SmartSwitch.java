@@ -7,12 +7,12 @@ public class SmartSwitch extends Device{
     }
 
     @Override
-    void turnOn() {
-
+    public void turnOn() {
+        System.out.println(getName() +" : " + "Encendiendo Switch" );
     }
 
     @Override
-    void turnOff() {
-
+    public void turnOff() {
+        System.out.println(getName() +" : " + "Apagando Switch" );
     }
 }
